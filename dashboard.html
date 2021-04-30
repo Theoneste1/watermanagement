@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Water Bils Managemnt</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap"
+		rel="stylesheet">
+
+	<link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<link rel="stylesheet" href="css/aos.css">
+
+	<link rel="stylesheet" href="css/ionicons.min.css">
+
+	<link rel="stylesheet" href="css/flaticon.css">
+	<link rel="stylesheet" href="css/icomoon.css">
+  <link rel="stylesheet" href="css/style.css">
+  
+  <style>
+    .username{
+      float: right;
+      
+    }
+    #username{
+      text-transform: capitalize;
+      color:aliceblue;
+    }
+  </style>
+</head>
+
+<body>
+	<div class="bg-top navbar-light">
+		<div class="container">
+			<div class="row no-gutters d-flex align-items-center align-items-stretch">
+				<div class="col-md-4 d-flex align-items-center py-4">
+					<a style="color:green;" class="navbar-brand" href="index.html">Water<span>Bills Management System
+							</span></a>
+				</div>
+			
+			</div>
+		</div>
+	</div>
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar"> 
+			
+		<div class="container d-flex align-items-center px-4">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+				aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="oi oi-menu"></span> Menu
+			</button>
+		
+			
+			<div class="collapse navbar-collapse" id="ftco-nav">
+			
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item"><a href="index.html" class="nav-link pl-0">Home</a></li>
+					<li class="nav-item active"><a href="dashboard.html" class="nav-link">Dashboard</a></li>
+					<li class="nav-item"><a href="meter.html" class="nav-link">MeterReadings</a></li>
+          <li class="nav-item" id="login_bar"><a href="login/login.html" class="nav-link">Login</a></li>
+					<li class="nav-item" id="register_bar"><a href="login/registration.html" class="nav-link">Register</a></li>
+					<li class="nav-item"><a id="logout" href="../../index.html" class="nav-link">Logout</a></li>
+				</ul>
+      </div>
+      <div class="username">
+        <p id="username"></p>
+    </div>
+		</div>
+	</nav>
+    <!-- END nav -->
+
+    <section class="ftco-section">
+
+  
+      <style>
+          table {
+               width: 1000px;
+               border-collapse: collapse;
+              margin-left: 10px;
+              align-self: center;
+              box-shadow: 1px 1px 1px 5px green;
+          }
+          table, th, td {
+              border: 1px solid black;
+          }
+          th{
+            color: green;
+          }
+          th, td {
+              padding: 10px;
+          }
+          table.secondary caption {
+              caption-side: bottom;
+          }
+      </style>
+ <div > 
+
+  <table id="table">
+   
+    
+    <tr>
+        <th>Previous readings</th>
+        <th>Current readings</th>
+        <th>Consumed water volume</th>
+        <th>Price</th>
+        <th>Date</th>
+
+    </tr>
+   
+</table>
+
+ </div>
+
+      
+     
+
+    </section>
+    
+    <section class="ftco-section">
+      <div class="container-fluid px-4">
+        <div class="row justify-content-center mb-5 pb-2">
+          <div class="col-md-8 text-center heading-section ftco-animate">
+            <h4 style="color: green;" class="mb-4"><span>Welcome</span> Water Management System</h4>
+            <p>This application is to be used by the water utility to enable subscribers submit their monthly water
+              readings and receive their monthly water bills. Once the subscriber has submitted their meter reading,
+              the system shall compute the amount the subscriber is to pay and present them with a bill. The
+              subscriber may then elect to pay their bill. A subscriber is able to see the total amount they owe the
+              water utility and the status of all their previous water bills.</p>
+          </div>
+        </div>
+        
+    </section>
+    
+
+		<footer class="ftco-footer ftco-bg-dark ftco-section" style="background-color: rgb(39, 63, 39);">
+		<div class="container" >
+			<div class="row mb-5">
+				
+				<div class="col-md-6 col-lg-3">
+					<div class="ftco-footer-widget mb-5 ml-md-4">
+						<h2 class="ftco-heading-2">Links</h2>
+						<ul class="list-unstyled">
+							<li><a href="index.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Home</a></li>
+							<li><a href="about.html"><span class="ion-ios-arrow-round-forward mr-2"></span>dashboard</a></li>
+							<li><a href="academic.html"><span class="ion-ios-arrow-round-forward mr-2"></span>MeterReadings</a></li>
+							<li><a href="members.html"><span class="ion-ios-arrow-round-forward mr-2"></span>login</a></li>
+							<li><a href="writing.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Register</a></li>
+						</ul>
+					</div>
+				</div>
+
+
+				<div class="col-md-6 col-lg-3" style="background-color: rgb(174, 156, 156);">
+					<div class="ftco-footer-widget mb-5">
+						<h2 class="ftco-heading-2">Subscribe Us!</h2>
+						<form action="#" class="subscribe-form">
+							<div class="form-group">
+								<input type="text" class="form-control mb-2 text-center"
+									placeholder="Enter email address">
+								<input type="submit" value="Subscribe" class="form-control submit px-3">
+							</div>
+						</form>
+					</div>
+			
+			</div>
+			<div class="row">
+				<div class="col-md-12 text-center">
+
+					<p>
+						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+						Copyright &copy;
+						<script>document.write(new Date().getFullYear());</script> All rights reserved |
+						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+  
+  
+  
+  
+    <!-- loader -->
+    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+        <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+        <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+          stroke="#F96D00" /></svg></div>
+  
+  
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/scrollax.min.js"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script src="js/google-map.js"></script>
+    <script src="js/main.js"></script>
+    <script src="login/js/dashboard.js" ></script>
+  
+  </body>
+  
+  </html>
