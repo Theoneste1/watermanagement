@@ -1,4 +1,7 @@
 <?php
 
-include_once("index.html");
+$ echo '<?php include_once("index.html"); ?>' > index.php
+$ echo '{}' > composer.json
 ?>
+
+
